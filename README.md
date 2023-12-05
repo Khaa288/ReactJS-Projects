@@ -1,1 +1,1 @@
-# ReactJS-Projects with Vite setup
+# ReactJS-Projects with Vite setups
