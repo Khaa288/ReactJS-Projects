@@ -1,1 +1,1 @@
-# ReactJS-Projects with Vite setups
+# ReactJS-Projects fundamentals and setting up
