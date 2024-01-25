@@ -1,1 +1,1 @@
-# ReactJS PET Projects 
+# ReactJS Lifecycle Methods Class Components with Cyclopedia
