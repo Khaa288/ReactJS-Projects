@@ -1,6 +1,6 @@
 import React from "react";
 import getRandomUser from "./Utilities/Api";
-import Instructor from "./Instructor";
+import Instructor from "./InstructorClass";
 
 class Cyclopedia extends React.Component {
     constructor(props) {
@@ -17,7 +17,6 @@ class Cyclopedia extends React.Component {
     }
 
     componentDidMount = async () => {
-        console.log('Mount');
         if (JSON.parse(localStorage.getItem("cyclePediaState"))) {
             this.setState(JSON.parse(localStorage.getItem("cyclePediaState")));
         }
@@ -40,11 +39,7 @@ class Cyclopedia extends React.Component {
     };
 
     componentDidUpdate = async(previousProps, previousState) =>  {
-        console.log('Update');
         localStorage.setItem("cyclePediaState", JSON.stringify(this.state));
-
-        console.log("Old State - " + previousState.studentCount);
-        console.log("New State - " + this.state.studentCount);
 
         if (previousState.studentCount < this.state.studentCount) {
             const response = await getRandomUser();
@@ -69,7 +64,7 @@ class Cyclopedia extends React.Component {
     };
 
     componentWillUnmount() {
-        console.log('Will Unmount');
+
     };
 
     handleAddStudent = () => {
@@ -97,7 +92,6 @@ class Cyclopedia extends React.Component {
     }
 
     render() {
-        console.log('Render Component');
         return(
             <div>
                 <div className="p-3">

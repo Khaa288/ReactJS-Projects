@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './Components/Layout/Header';
-import Cyclopedia from './CyclopediaClassPage';
+import CyclopediaClass from './CyclopediaClassPage';
+import CyclopediaFunc from './CyclopediaFuncPage';
 
 const root  = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,7 +12,12 @@ root.render(
         <div className='row text-white'>
             <div className='col-6'>
                 <span className='h1 text-warning text-center'>Class Component</span>
-                <Cyclopedia/>
+                <CyclopediaClass/>
+            </div>
+
+            <div className='col-6'>
+                <span className='h1 text-warning text-center'>Functional Component</span>
+                <CyclopediaFunc/>
             </div>
         </div>
     </div>

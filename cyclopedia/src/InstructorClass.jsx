@@ -6,19 +6,18 @@ class Instructor extends React.Component {
     }
 
     componentDidMount = () => {
-        console.log('Mounted - Instructor');
+
     }
 
     componentDidUpdate = () => {
-        console.log('Updated - Instructor');
+
     }
 
     componentWillUnmount = () => {
-        console.log('Unmounted - Instructor');
+
     }
 
     render() {
-        console.log('Render - Instructor');
         return (
             <div className="">
                 Name: {this.props.instructor.name} <br/>
