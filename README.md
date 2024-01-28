@@ -1,1 +1,1 @@
-# ReactJS Lifecycle Methods Class Components with Cyclopedia
+# ReactJS Lifecycle Methods Class and Functional Components with Cyclopedia
