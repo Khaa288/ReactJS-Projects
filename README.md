@@ -5,3 +5,4 @@
 - Branch **"React 4"**: React CRUD Operations and Axios with ContactOpedia
 - Branch **"React 5"**: React Lifecycle Methods Class and Functional Components with Cyclopedia
 - Branch **"React 6"**: React Hooks Fundamental with WatchOpedia
+- Branch **"React 7"**: Routing in React with RouteOpedia 
