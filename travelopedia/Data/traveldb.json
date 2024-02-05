@@ -1,0 +1,52 @@
+{
+  "destination": [
+    {
+      "id": 3.0688238902533738,
+      "city": "USA",
+      "country": "New York",
+      "daysNeeded": "12"
+    },
+    {
+      "id": 8.388006933530924,
+      "city": "Vatican",
+      "country": "Italy",
+      "daysNeeded": 9
+    },
+    {
+      "id": 0.40631510383391634,
+      "city": "Pensilvania, Florida",
+      "country": "USA",
+      "daysNeeded": 10
+    },
+    {
+      "id": 6.7809215172463215,
+      "city": "Chicago",
+      "country": "USA",
+      "daysNeeded": 1
+    },
+    {
+      "id": 5.974290516136003,
+      "city": "Canada",
+      "country": "New Clinton",
+      "daysNeeded": 2
+    },
+    {
+      "id": 2.106554173127446,
+      "city": "HCM City",
+      "country": "Viet Nam",
+      "daysNeeded": 4
+    },
+    {
+      "id": 8.429883039017215,
+      "city": "Bangkok",
+      "country": "Thailand",
+      "daysNeeded": 7
+    },
+    {
+      "id": 7.046229322917988,
+      "city": "Northern Mariana Islands",
+      "country": "New Bartonburgh",
+      "daysNeeded": 2
+    }
+  ]
+}
